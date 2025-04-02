@@ -23,6 +23,9 @@
 		46B899932D9C497600DC5A4E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899822D9C497600DC5A4E /* NetworkManager.swift */; };
 		46B899942D9C497600DC5A4E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899832D9C497600DC5A4E /* OrderView.swift */; };
 		46B899952D9C497600DC5A4E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899842D9C497600DC5A4E /* RemoteImage.swift */; };
+		46B899A42D9C4C8600DC5A4E /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899A32D9C4C8600DC5A4E /* AppetizerDetailView.swift */; };
+		46B899A92D9D9A6A00DC5A4E /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899A82D9D9A6A00DC5A4E /* APButton.swift */; };
+		46B899AB2D9D9D9C00DC5A4E /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899AA2D9D9D9C00DC5A4E /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		46B899822D9C497600DC5A4E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		46B899832D9C497600DC5A4E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		46B899842D9C497600DC5A4E /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		46B899A32D9C4C8600DC5A4E /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		46B899A82D9D9A6A00DC5A4E /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		46B899AA2D9D9D9C00DC5A4E /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -160,6 +166,7 @@
 			children = (
 				46B8997C2D9C497600DC5A4E /* AppetizerListViewModel.swift */,
 				46B8997B2D9C497600DC5A4E /* AppetizerListView.swift */,
+				46B899A32D9C4C8600DC5A4E /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -226,6 +233,7 @@
 		46B8999F2D9C4A6100DC5A4E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				46B899A52D9D9A2C00DC5A4E /* Buttons */,
 				46B899A12D9C4A7800DC5A4E /* Image */,
 				46B899A02D9C4A6900DC5A4E /* Cells */,
 				46B899A22D9C4A7C00DC5A4E /* UIKit Components */,
@@ -255,6 +263,15 @@
 				46B899812D9C497600DC5A4E /* LoadingView.swift */,
 			);
 			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		46B899A52D9D9A2C00DC5A4E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				46B899A82D9D9A6A00DC5A4E /* APButton.swift */,
+				46B899AA2D9D9D9C00DC5A4E /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,14 +419,17 @@
 			files = (
 				46B899882D9C497600DC5A4E /* AccountView.swift in Sources */,
 				46B899892D9C497600DC5A4E /* Alert.swift in Sources */,
+				46B899AB2D9D9D9C00DC5A4E /* XDismissButton.swift in Sources */,
 				46B8998A2D9C497600DC5A4E /* APError.swift in Sources */,
 				46B8998B2D9C497600DC5A4E /* Appetizer.swift in Sources */,
 				46B8998C2D9C497600DC5A4E /* AppetizerListCell.swift in Sources */,
 				46B8998D2D9C497600DC5A4E /* AppetizerListView.swift in Sources */,
+				46B899A92D9D9A6A00DC5A4E /* APButton.swift in Sources */,
 				46B8998E2D9C497600DC5A4E /* AppetizerListViewModel.swift in Sources */,
 				46B8998F2D9C497600DC5A4E /* AppetizersApp.swift in Sources */,
 				46B899902D9C497600DC5A4E /* AppetizerTabView.swift in Sources */,
 				46B899912D9C497600DC5A4E /* Color+Ext.swift in Sources */,
+				46B899A42D9C4C8600DC5A4E /* AppetizerDetailView.swift in Sources */,
 				46B899922D9C497600DC5A4E /* LoadingView.swift in Sources */,
 				46B899932D9C497600DC5A4E /* NetworkManager.swift in Sources */,
 				46B899942D9C497600DC5A4E /* OrderView.swift in Sources */,
