@@ -30,6 +30,7 @@
 		46B899AF2DA0320900DC5A4E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899AE2DA0320900DC5A4E /* String+Ext.swift */; };
 		46B899B12DA035E400DC5A4E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899B02DA035E400DC5A4E /* User.swift */; };
 		46B899B42DA04F1100DC5A4E /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899B32DA04F1100DC5A4E /* EmptyState.swift */; };
+		46B89A6D2DA213AA00DC5A4E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B89A6C2DA213AA00DC5A4E /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		46B899AE2DA0320900DC5A4E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		46B899B02DA035E400DC5A4E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		46B899B32DA04F1100DC5A4E /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		46B89A6C2DA213AA00DC5A4E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -237,6 +239,7 @@
 			children = (
 				46B899792D9C497600DC5A4E /* Appetizer.swift */,
 				46B899B02DA035E400DC5A4E /* User.swift */,
+				46B89A6C2DA213AA00DC5A4E /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				46B899892D9C497600DC5A4E /* Alert.swift in Sources */,
 				46B899AB2D9D9D9C00DC5A4E /* XDismissButton.swift in Sources */,
 				46B8998A2D9C497600DC5A4E /* APError.swift in Sources */,
+				46B89A6D2DA213AA00DC5A4E /* Order.swift in Sources */,
 				46B899AD2D9DAF2B00DC5A4E /* AccountViewModel.swift in Sources */,
 				46B8998B2D9C497600DC5A4E /* Appetizer.swift in Sources */,
 				46B8998C2D9C497600DC5A4E /* AppetizerListCell.swift in Sources */,
