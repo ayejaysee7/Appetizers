@@ -2,6 +2,8 @@ import SwiftUI
 
 struct AppetizerTabView: View {
     
+    @EnvironmentObject var order: Order
+    
     init() {
         let appearance = UITabBarAppearance()
         appearance.configureWithDefaultBackground() // ✅ Restores default grey background
@@ -12,27 +14,15 @@ struct AppetizerTabView: View {
     var body: some View {
         TabView {
             AppetizerListView()
-                .tabItem {
-                    Image(systemName: "house")
-                        .environment(\.symbolVariants, .none)
-                    Text("Home")
-                }
+                .tabItem { Label("Home", systemImage: "house")   }
             
             AccountView()
-                .tabItem {
-                    Image(systemName: "person")
-                        .environment(\.symbolVariants, .none)
-                    Text("Account")
-                }
+                .tabItem { Label("Account", systemImage: "person")}
             
             OrderView()
-                .tabItem {
-                    Image(systemName: "bag")
-                        .environment(\.symbolVariants, .none)
-
-                    Text("Order")
-                }
-        }.accentColor(.brandPrimaryColor)
+                .tabItem { Label("Order", systemImage: "bag") }
+                .badge(order.items.count)
+        }
     }
 }
 
