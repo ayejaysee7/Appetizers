@@ -32,6 +32,7 @@
 		46B899B42DA04F1100DC5A4E /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B899B32DA04F1100DC5A4E /* EmptyState.swift */; };
 		46B89A6D2DA213AA00DC5A4E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B89A6C2DA213AA00DC5A4E /* Order.swift */; };
 		46B89A6F2DAC19B900DC5A4E /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B89A6E2DAC19B900DC5A4E /* CustomModifiers.swift */; };
+		46B89B512DB4936700DC5A4E /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B89B502DB4936700DC5A4E /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		46B899B32DA04F1100DC5A4E /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		46B89A6C2DA213AA00DC5A4E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		46B89A6E2DAC19B900DC5A4E /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		46B89B502DB4936700DC5A4E /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -223,6 +225,7 @@
 			children = (
 				46B899AE2DA0320900DC5A4E /* String+Ext.swift */,
 				46B899802D9C497600DC5A4E /* Color+Ext.swift */,
+				46B89B502DB4936700DC5A4E /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				46B899882D9C497600DC5A4E /* AccountView.swift in Sources */,
 				46B899892D9C497600DC5A4E /* Alert.swift in Sources */,
 				46B899AB2D9D9D9C00DC5A4E /* XDismissButton.swift in Sources */,
+				46B89B512DB4936700DC5A4E /* Date+Ext.swift in Sources */,
 				46B8998A2D9C497600DC5A4E /* APError.swift in Sources */,
 				46B89A6D2DA213AA00DC5A4E /* Order.swift in Sources */,
 				46B899AD2D9DAF2B00DC5A4E /* AccountViewModel.swift in Sources */,
